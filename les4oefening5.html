@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Les 4 - Oefening 5</title>
+</head>
+
+<body>
+    <form action="registreren.php" method="post">
+        <label for="voornaam">Voornaam:</label><br>
+        <input type="text" id="voornaam" name="voornaam"><br>
+
+        <label for="familienaam">Familienaam:</label><br>
+        <input type="text" id="familienaam" name="familienaam"><br>
+
+        <label for="adres">Adres:</label><br>
+        <input type="text" id="adres" name="adres"><br>
+
+        <label for="provinicie">Provinicie:</label><br>
+        <select name="provinicie" id="provinicie">
+            <option value="antwerpen">Antwerpen</option>
+            <option value="henegouwen">Henegouwen</option>
+            <option value="limburg">Limburg</option>
+            <option value="luik">Luik</option>
+            <option value="luxemburg">Luxemburg</option>
+            <option value="namen">Namen</option>
+            <option value="oostVlaanderen">Oost-Vlaanderen</option>
+            <option value="vlaamsBrabant">Vlaams-Brabant</option>
+            <option value="waalsBrabant">Waals-Brabant</option>
+            <option value="westVlaanderen">West-Vlaanderen</option>
+        </select><br>
+
+        <label id="geslacht">Geslacht</label><br>
+        <input type="radio" id="man" name="geslacht">
+        <label for="man">Man</label><br>
+        <input type="radio" id="vrouw" name="geslacht">
+        <label for="vrouw">Vrouw</label><br>
+        <input type="radio" id="ander" name="geslacht">
+        <label for="ander">Ander</label><br><br>
+
+        <input type="checkbox" id="algemeneVoorwaarden" name="algemeneVoorwaarden">
+        <label for="algemeneVoorwaarden">Ik ga akkoord met de algemene voorwaarden</label><br><br>
+        
+        <input type="submit" value="Registreren">
+    </form>
+</body>
+
+</html>
